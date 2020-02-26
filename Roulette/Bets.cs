@@ -22,7 +22,7 @@ namespace Roulette
         }
         public bool CheckZeros(int n)
         {
-            if (n == 0 || n == 37)
+            if (n == 0 || n == 37) //integer 37 represents posibility of rolling a 00
             {
                 if (n == 0)
                 {
